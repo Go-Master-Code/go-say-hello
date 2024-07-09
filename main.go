@@ -5,3 +5,7 @@ import "log"
 func LgInfo(message string) {
 	log.Printf("INFO - %v", message)
 }
+
+func Cetak() string {
+	return "Hello"
+}
