@@ -1,6 +1,9 @@
 package mylogger2
 
-import "log"
+import (
+	"fmt"
+	"log"
+)
 
 func LgInfo(message string) {
 	log.Printf("INFO - %v", message)
@@ -8,4 +11,8 @@ func LgInfo(message string) {
 
 func Cetak() string {
 	return "Hello"
+}
+
+func Perubahan() {
+	fmt.Println("Function perubahan")
 }
